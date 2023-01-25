@@ -1,0 +1,101 @@
+        ===== PAVAN =====
+
+git init  (to intilize empty git repository)
+
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+
+git config --global --unset user.name
+git config --global --unset user.email 
+
+Phases
+======
+1) Workspace
+2) Staging / Index
+3) Local repo
+
+------------------
+touch file1
+ls
+
+touch file2 file3
+ls
+
+mkdir dir1
+ls
+
+mkdir dir2 dir3
+ls
+
+===============================
+touch file1
+ls
+git status
+git add file1 (workspace to staging)
+git status
+git commit -m "label" file1  {staging to local repo)
+git status
+git log
+git show
+
+===========================
+touch file2 file3 file4
+ls
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+
+git status
+git commit -m "label"
+git status
+git log
+
+
+--------------------------------
+
+git clone https://github.com/polarapu/batch89.git
+ls
+cd batch89
+ls
+touch file1
+ls
+git status
+git add file1
+gti status
+git commit -m "sample file1"
+git log
+git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
